@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* only added the HTML and the header css statement: */
+
+/* html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  overflow: hidden;
+}
+html body .container  {
+  position: absolute;
+  top: 50px;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+}
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #4C4;
+    height: 50px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4C4;
+    height: 30px;
+} */
+
+body{        
+/* overflow: auto; */
+/* /* max-height: 100vh; */
+height: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    /* overflow: hidden; */
+} 
+
+.header-index {
+    z-index: 9;
+  }
+
+.container{
+    width: 80%;
+    margin: 0 auto; 
+    /* overflow: hidden; */
+    /* margin-top: 150px; */
+    /* padding: 8px; */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #A2A2A1FF;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none !important ;
+    padding: 7px 25px;
+    display: inline-block;
+    float: right;
+
+    
+}
+
+.bg-color
+{
+    background-color: #195190FF;
+    color:white;
+    /* border: 1px solid #ccc; */
+}
+
+.desk-color
+{
+    color:red;
+}/* You can add global styles to this file, and also import other style files */
